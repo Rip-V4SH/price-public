@@ -26,6 +26,7 @@
 
 .esquerda p{
     display: inline;
+    margin-bottom: 0.25rem;
 }
 
 .efirst{
@@ -33,14 +34,31 @@
     font-size: 2rem;
     font-weight: 700;
     line-height: 2.375rem;
+    margin-right: 0.75rem;
 }
 
 .elast{
     color: rgba(255, 255, 255, 0.5);
 }
 
-.ediv{
-    margin-bottom: 0.25rem;
+.ep{ 
+    color: #fff;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+
+}
+
+.esquerda button{
+    padding-block: 1rem;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    border: none;
+    background-color: var(--Bright-Yellow);
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    
 }
 
 .direita{
